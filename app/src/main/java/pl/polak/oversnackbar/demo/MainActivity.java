@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                     snackBar.dismiss();
                 } else {
                     final ViewGroup viewGroup = (ViewGroup) findViewById(android.R.id.content).getRootView();
-                    snackBar = OverSnackBar.make(viewGroup, "Loading...", OverSnackBar.LENGTH_INDEFINITE, OverSnackBar.APPEAR_FROM_TOP_TO_DOWN);
+                    snackBar = OverSnackBar.make(viewGroup, "Loading...", OverSnackBar.LENGTH_LONG, OverSnackBar.APPEAR_FROM_TOP_TO_DOWN);
                     snackBar.show();
                 }
             }
